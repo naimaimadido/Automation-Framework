@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.framework</groupId>
+    <artifactId>webAutomation</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <modules>
+        <module>Generic</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+        <!-- Dependency versions -->
+        <selenium.version>3.141.59</selenium.version>
+        <testng.version>6.14.3</testng.version>
+        <!-- Plugin versions -->
+        <driver-binary-downloader-maven-plugin.version>1.0.17</driver-binary-downloader-maven-plugin.version>
+        <maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
+        <maven-failsafe-plugin.version>2.21.0</maven-failsafe-plugin.version>
+        <!-- Configurable variables -->
+        <threads>1</threads>
+        <browser>chrome</browser>
+        <overwrite.binaries>false</overwrite.binaries>
+        <headless>true</headless>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+                <version>${maven-compiler-plugin.version}</version>
+            </plugin>
+            <plugin>
+                <groupId>com.lazerycode.selenium</groupId>
+                <artifactId>driver-binary-downloader-maven-plugin</artifactId>
+                <version>${driver-binary-downloader-maven-plugin.version}</version>
+                <configuration>
+                    <rootStandaloneServerDirectory>${project.basedir}/resources/selenium_standalone_binaries</rootStandaloneServerDirectory>
+                    <downloadedZipFileDirectory>${project.basedir}/resources/selenium_standalone_zips</downloadedZipFileDirectory>
+                    <customRepositoryMap>${project.basedir}/resources/RepositoryMap.xml</customRepositoryMap>
+                    <overwriteFilesThatExist>${overwrite.binaries}</overwriteFilesThatExist>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>selenium</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-failsafe-plugin</artifactId>
+                <version>${maven-failsafe-plugin.version}</version>
+                <!--TestNG supports parallel threads out of the box; we just need to tell it how to use them. This is
+                where the Maven Failsafe Plugin comes in. We are going to use it to configure our parallel execution
+                environment for our tests. This configuration will be applied to TestNG if you have TestNG as a dependency;
+                you don't need to do anything special.
+                  In our case, we are interested in parallel and the threadCount configuration settings. We have set parallel
+                to methods. This will search through our project for methods that have the @Test annotation and will
+                collect them all into a great big pool of tests. The Failsafe Plugin will then take tests out of this
+                pool and run them. The number of tests that will be run concurrently will depend on how many threads
+                are available. We will use the threadCount property to control this.
+                  It is important to note that there is no guarantee in which order tests will be run.
+                  We are using the threadCount configuration setting to control how many tests we run in parallel, but
+                as you may have noticed we have not specified a number. Instead, we have used the Maven variable
+                ${threads}, this will take the value of the maven property threads that we defined in our properties
+                block and pass it into threadCount.
+                  Since threads is a Maven property, we are able to override its value on the command line by using the
+                  -D switch. If we do not override its value, it will use the value we have set in the POM as a default.-->
+                <configuration>
+                    <parallel>methods</parallel>
+                    <!--
+                        mvn clean verify -Dthreads=2 -Dwebdriver.gecko.driver=<PATH_TO_GECKODRIVER_BINARY>
+                    -->
+                    <!--
+                       If you run your tests right now, you will see that even though we are supplying multiple threads
+                     to our code, all the tests still run in a single thread. Selenium is not thread safe, so we need to
+                     write some code that will make sure that each Selenium instance runs in its own isolated thread
+                     and does not leak over to other threads.
+                     -->
+                    <threadCount>${threads}</threadCount>
+
+                    <systemPropertyVariables>
+                        <browser>${browser}</browser>
+                        <headless>${headless}</headless>
+                        <!--Set properties passed in by the driver binary downloader-->
+                        <!--suppress UnresolvedMavenProperty -->
+                        <webdriver.chrome.driver>${webdriver.chrome.driver}</webdriver.chrome.driver>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <webdriver.ie.driver>${webdriver.ie.driver}</webdriver.ie.driver>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <webdriver.opera.driver>${webdriver.opera.driver}</webdriver.opera.driver>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <webdriver.gecko.driver>${webdriver.gecko.driver}</webdriver.gecko.driver>
+                        <!--suppress UnresolvedMavenProperty -->
+                        <webdriver.edge.driver>${webdriver.edge.driver}</webdriver.edge.driver>
+                    </systemPropertyVariables>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>integration-test</goal>
+                            <goal>verify</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>${selenium.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-remote-driver</artifactId>
+            <version>${selenium.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>${testng.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.lazerycode.selenium/driver-binary-downloader-maven-plugin -->
+        <dependency>
+            <groupId>com.lazerycode.selenium</groupId>
+            <artifactId>driver-binary-downloader-maven-plugin</artifactId>
+            <version>1.0.17</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

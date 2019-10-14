@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b0b7191b-c80c-49e0-a04a-eadc9a0edcf5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/java/com/masteringselenium/tests/AnotherBasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/java/com/masteringselenium/tests/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/resources/web/downloadTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/resources/web/images/myImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix B/src/test/resources/web/pdf/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix C/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix C/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix C/src/test/java/com/masteringselenium/AppiumBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix C/src/test/java/com/masteringselenium/config/AppiumDriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix C/src/test/java/com/masteringselenium/config/AppiumFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix C/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix C/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix C/src/test/java/com/masteringselenium/page_objects/BasePageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix C/src/test/java/com/masteringselenium/page_objects/CalculatorPageObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Appendix C/src/test/java/com/masteringselenium/tests/CalculatorIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 1/src/test/java/com/masteringselenium/BasicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 2/src/test/java/com/masteringselenium/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 2/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 2/src/test/java/com/masteringselenium/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 3/src/test/java/com/masteringselenium/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 3/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 3/src/test/java/com/masteringselenium/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 4/src/test/java/com/masteringselenium/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 4/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 4/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 4/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 4/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 5/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 5/src/test/java/com/masteringselenium/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 5/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 5/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 5/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 5/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 5/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 6/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 6/src/test/java/com/masteringselenium/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 6/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 6/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 6/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 6/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 1/Part 6/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/test/java/com/masteringselenium/page_objects/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/test/java/com/masteringselenium/page_objects/GoogleHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/test/java/com/masteringselenium/tests/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 10/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/src/test/java/com/masteringselenium/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/src/test/resources/selenium_standalone_binaries/osx/googlechrome/64bit/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/src/test/resources/selenium_standalone_binaries/osx/marionette/64bit/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/src/test/resources/selenium_standalone_binaries/osx/operachromium/64bit/operadriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 1/src/test/resources/selenium_standalone_binaries/osx/phantomjs/64bit/phantomjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/src/test/java/com/masteringselenium/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/src/test/resources/selenium_standalone_binaries/osx/googlechrome/64bit/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/src/test/resources/selenium_standalone_binaries/osx/marionette/64bit/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/src/test/resources/selenium_standalone_binaries/osx/operachromium/64bit/operadriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 2/src/test/resources/selenium_standalone_binaries/osx/phantomjs/64bit/phantomjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/java/com/masteringselenium/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/resources/selenium_standalone_binaries/osx/googlechrome/64bit/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/resources/selenium_standalone_binaries/osx/marionette/64bit/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/resources/selenium_standalone_binaries/osx/operachromium/64bit/operadriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 3/src/test/resources/selenium_standalone_binaries/osx/phantomjs/64bit/phantomjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/java/com/masteringselenium/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/resources/selenium_standalone_binaries/osx/googlechrome/64bit/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/resources/selenium_standalone_binaries/osx/marionette/64bit/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/resources/selenium_standalone_binaries/osx/operachromium/64bit/operadriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 2/Part 4/src/test/resources/selenium_standalone_binaries/osx/phantomjs/64bit/phantomjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/src/test/java/com/masteringselenium/tests/AdditionalConditions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/src/test/java/com/masteringselenium/tests/BooleanFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/src/test/java/com/masteringselenium/tests/Functions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/src/test/java/com/masteringselenium/tests/WaitExamplesIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 4/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/main/webapp/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/main/webapp/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/test/java/com/masteringselenium/tests/AboutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/test/java/com/masteringselenium/tests/CheckAboutPageIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/test/java/com/masteringselenium/tests/IndexPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 1/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/main/webapp/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/main/webapp/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/test/java/com/masteringselenium/page_objects/AboutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/test/java/com/masteringselenium/page_objects/IndexPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/test/java/com/masteringselenium/tests/CheckAboutPageIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 2/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/fluent_page_objects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/page_factory_objects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/page_factory_objects/LoginPageStep1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/page_factory_objects/LoginPageStep2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/page_factory_objects/LoginPageStep3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/page_objects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/query_page_objects/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/query_page_objects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/java/com/masteringselenium/tests/GenericLoginTestIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 3/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/main/webapp/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/main/webapp/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/query_page_objects/AboutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/query_page_objects/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/query_page_objects/IndexPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/query_page_objects/PageFooter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/query_page_objects/PageHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/java/com/masteringselenium/tests/CheckAboutPageTextIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 4/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/fluent_page_objects/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/fluent_page_objects/ChangePasswordPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/fluent_page_objects/IndexPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/fluent_page_objects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/query_page_objects/LoginPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/java/com/masteringselenium/tests/FluentGenericLoginTestIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 5/Part 5/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/main/webapp/accessKeysAbout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/main/webapp/accessKeysHome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/main/webapp/cssMenu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/main/webapp/jsDragAndDrop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/main/webapp/jsDragAndDropWithHandle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/accessKeys/Browser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/accessKeys/OperatingSystem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/tests/AccessKeysIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/tests/CalculateOffsetPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/tests/cssMenuIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/java/com/masteringselenium/tests/dragAndDropIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 6/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/main/webapp/dragAndDrop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/main/webapp/popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/main/webapp/promise.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/tests/DragAndDropIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/tests/DragAndDropJavaScript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/tests/InjectJavaScriptLibraryIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/tests/InteractiveJavaScriptIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/tests/JavaScriptExamplesIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/tests/JavaScriptHelpers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/tests/foo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/java/com/masteringselenium/tests/interact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 7/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/java/com/masteringselenium/downloader/FileDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/java/com/masteringselenium/downloader/RequestType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/resources/web/downloadTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/resources/web/images/myImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 1/src/test/resources/web/pdf/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/java/com/masteringselenium/downloader/FileDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/java/com/masteringselenium/downloader/RequestType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/java/com/masteringselenium/tests/FileDownloaderIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/resources/web/downloadTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/resources/web/images/myImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 2/src/test/resources/web/pdf/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/java/com/masteringselenium/downloader/CheckFileHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/java/com/masteringselenium/downloader/FileDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/java/com/masteringselenium/downloader/HashType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/java/com/masteringselenium/downloader/RequestType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/java/com/masteringselenium/tests/FileDownloaderIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/resources/web/downloadTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/resources/web/images/myImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 3/src/test/resources/web/pdf/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 4/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 4/src/test/java/com/masteringselenium/tests/ProxyBasedIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 4/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/src/test/java/com/masteringselenium/tests/BasicIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/src/test/resources/web/downloadTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/src/test/resources/web/images/myImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 5/src/test/resources/web/pdf/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/src/test/java/com/masteringselenium/tests/BrowserMobProxyIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/src/test/resources/web/downloadTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/src/test/resources/web/images/myImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 8/Part 6/src/test/resources/web/pdf/TestFile.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/main/scripts/startDockerContainers.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/main/scripts/stopDockerContainers.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/java/com/masteringselenium/page_objects/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/java/com/masteringselenium/page_objects/GoogleHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/java/com/masteringselenium/tests/BasicTestIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/linux/googlechrome/64bit/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/linux/marionette/64bit/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/linux/operachromium/64bit/operadriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/linux/phantomjs/64bit/phantomjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/osx/googlechrome/64bit/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/osx/marionette/64bit/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/osx/operachromium/64bit/operadriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/osx/phantomjs/64bit/phantomjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/windows/edge/64bit/MicrosoftWebDriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/windows/googlechrome/64bit/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/windows/internetexplorer/64bit/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/windows/marionette/64bit/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/windows/operachromium/64bit/operadriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_binaries/windows/phantomjs/64bit/phantomjs.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_zips/MicrosoftWebDriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 1/src/test/resources/selenium_standalone_zips/phantomjs-1.9.8-linux-x86_64.tar.bz2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/java/com/masteringselenium/page_objects/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/java/com/masteringselenium/page_objects/GoogleHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/java/com/masteringselenium/tests/BasicTestIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/linux/googlechrome/64bit/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/linux/marionette/64bit/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/linux/operachromium/64bit/operadriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/osx/googlechrome/64bit/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/osx/marionette/64bit/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/osx/operachromium/64bit/operadriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/windows/edge/64bit/MicrosoftWebDriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/windows/googlechrome/64bit/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/windows/internetexplorer/64bit/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/windows/marionette/64bit/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_binaries/windows/operachromium/64bit/operadriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 2/src/test/resources/selenium_standalone_zips/MicrosoftWebDriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/docker/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/java/com/masteringselenium/DriverBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/java/com/masteringselenium/config/DriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/java/com/masteringselenium/config/DriverSetup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/java/com/masteringselenium/config/DriverType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/java/com/masteringselenium/listeners/ScreenshotListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/java/com/masteringselenium/page_objects/BasePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/java/com/masteringselenium/page_objects/GoogleHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/java/com/masteringselenium/tests/BasicTestIT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/RepositoryMap.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/linux/googlechrome/64bit/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/linux/marionette/64bit/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/linux/operachromium/64bit/operadriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/osx/googlechrome/64bit/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/osx/marionette/64bit/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/osx/operachromium/64bit/operadriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/windows/edge/64bit/MicrosoftWebDriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/windows/googlechrome/64bit/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/windows/internetexplorer/64bit/IEDriverServer.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/windows/marionette/64bit/geckodriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_binaries/windows/operachromium/64bit/operadriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Chapter 9/Part 3/src/test/resources/selenium_standalone_zips/MicrosoftWebDriver.exe" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SBEYLCmOnC0BTudKyVy1WZV68j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Generic" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\MasteringSelenium3Edition_SourceCODE\webAutomation" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.masteringselenium.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\MasteringSelenium3Edition_SourceCODE\webAutomation\Generic" />
+      <recent name="C:\Users\admin\Desktop\MasteringSelenium3Edition_SourceCODE\webAutomation\Generic\src\test" />
+      <recent name="C:\Users\admin\Desktop\MasteringSelenium3Edition_SourceCODE\webAutomation\Generic\src\test\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
